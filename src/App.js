@@ -3,9 +3,9 @@ import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
-import lightTheme from "./styles/themes/light";
-import darkTheme from "./styles/themes/dark";
-import defaultTheme from "./styles/themes/default";
+import lightTheme from "./mui/themes/light/light";
+import darkTheme from "./mui/themes/dark/dark";
+import defaultTheme from "./mui/themes/default/default";
 
 function App() {
   const [theme, setTheme] = useState(1);
